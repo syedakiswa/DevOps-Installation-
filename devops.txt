@@ -1,0 +1,10 @@
+
+open powershell as a administer 
+wsl --install -d ubuntu
+
+
+wsl --install -d ubuntu-24.04
+wsl --update --web-download
+
+wsl -d Ubuntu check ubuntu is working
+
